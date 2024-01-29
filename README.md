@@ -15,7 +15,7 @@ I moved from having that move being chosen randomly (keeping myself alive in the
 
 This solution can perhaps remind one of algorithms like minimax and expectimax, but it is actually very different; it's way faster, and it can provide movement choices better than these algorithms can do unless they have a pitch perfect evaluating funcion for determining the desirability of an action (however, it seems many are based on calculating the distance to the enemies, which can leave out certain trapping attemps that the same could do).
 
-This was hard fueled by my OCD, which is why the code may look like incomprehensible alien gibberish at some points. However, I would say the code is also clear and well structured, and the logic should present itself clearly. Overall, apart from the grade, I think that on this project, I did very good. Painfully good.
+This was hard fueled by my OCD, which is why the code may look like incomprehensible alien gibberish at some points. However, I would say the code is also clear and well structured, and the logic should present itself clearly. Overall, grade apart, I think that on this project, I did very good. Painfully good.
 
 
 

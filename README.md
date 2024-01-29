@@ -1,10 +1,10 @@
 # --- My notes ---
 
-# grade: 20/20
+# Grade: 20/20
 The grading was done in conformity to the max and median scores of the class. Whoever had the best score, would receive top mark (20/20); those who had the median score, would get 16 (had previously been the mean, but everyone bar myself would have gotten a negative grade if that were still the case). We took a while to receive the grades (the teacher had to run the game 10 times for the agent of each student, and there were about 200 of us), but I knew this agent was special, and had little doubt it would perform the best.
 
 
-# about the agent's algorithm
+# About the agent's algorithm
 The agents objective vary in function of the level, the game step, the number of enemies immediately present, the presence of rocks neaby, and the proximity to the target to kill. I employed the A* search algorithm to find the next action to make at every step, for every goal I had, except one: the goal of keeping myself alive.
 
 This is where my agent differed from everyone else's I think, since we were encouraged to use informed search techniques to approach our enemies, but had think for ourselves for every other goal beyond that. I initially figured the best way to keep myself alive when threatened, would be take a an action/move that would guarantee my survival in the next frame, if there was such a move. 

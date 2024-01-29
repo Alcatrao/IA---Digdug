@@ -1,7 +1,7 @@
 # --- My notes ---
 
 # grade: 20/20
-The grading was done in conformity to the max and median scores of the class. Whoever had the best score, would receive top mark (20/20); those who had the median score, would get 16 (had previously been the mean, but everyone bar myself would have gotten a negative grade if that were still the case). We took a while to receive the grades (the teacher had to run the game 10 times for the agent of each student, and there were about 200 of us), but I knew this agent was special.
+The grading was done in conformity to the max and median scores of the class. Whoever had the best score, would receive top mark (20/20); those who had the median score, would get 16 (had previously been the mean, but everyone bar myself would have gotten a negative grade if that were still the case). We took a while to receive the grades (the teacher had to run the game 10 times for the agent of each student, and there were about 200 of us), but I knew this agent was special, and had little doubt it would perform the best.
 
 
 # about the agent's algorithm

@@ -5,7 +5,7 @@ The grading was done in conformity to the max and median scores of the class. Wh
 
 
 # About the agent's algorithm
-The agents objective vary in function of the level, the game step, the number of enemies immediately present, the presence of rocks neaby, and the proximity to the target to kill. I employed the A* search algorithm to find the next action to make at every step, for every goal I had, except one: the goal of keeping myself alive.
+The agents objectives vary according to a number of variables, such as the game level, the game step, the number of enemies immediately present, the presence of rocks nearby, the proximity of the agent to the target to kill. I employed the A* search algorithm to find the next action to make at every step, for every goal I had, except one: the goal of keeping myself alive.
 
 This is where my agent differed from everyone else's I think, since we were encouraged to use informed search techniques to approach our enemies, but had think for ourselves for every other goal beyond that. I initially figured the best way to keep myself alive when threatened, would be take a an action/move that would guarantee my survival in the next frame, if there was such a move. 
 

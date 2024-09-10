@@ -11,7 +11,7 @@ import websockets
 import copy
 from consts import Direction
 
-from agent_helper_lvl41_dor_beliscão_peito_esquerdo import agent_AI, agent_random_move
+from agent_dor_cena_certo import agent_AI, agent_random_move
 
 pygame.init()
 program_icon = pygame.image.load("data/icon2.png")
@@ -105,5 +105,5 @@ async def agent_loop(server_address="localhost:8000", agent_name="João"):
 loop = asyncio.get_event_loop()
 SERVER = os.environ.get("SERVER", "localhost")
 PORT = os.environ.get("PORT", "8000")
-NAME = os.environ.get("NAME", 'dor')
+NAME = os.environ.get("NAME", 'Dor Cena Certo')
 loop.run_until_complete(agent_loop(f"{SERVER}:{PORT}", NAME))

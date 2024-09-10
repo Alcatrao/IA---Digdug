@@ -7,5 +7,5 @@ while(True):
     with open("scores.txt", 'a') as stream:
         stream.write("\n\n\n")
     print("\n\n\n")
-    output = subprocess.run(['python3', os.path.join(path,'student_lvl41.py')])
+    output = subprocess.run(['python3', os.path.join(path,'dorcenacerto.py')])
     time.sleep(2)

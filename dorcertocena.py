@@ -11,7 +11,7 @@ import websockets
 import copy
 from consts import Direction
 
-from agent_dor_cena_certo import agent_AI, agent_random_move
+from agent_dor_certo_cena import agent_AI, agent_random_move
 
 pygame.init()
 program_icon = pygame.image.load("data/icon2.png")

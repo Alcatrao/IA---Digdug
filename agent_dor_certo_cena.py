@@ -1,3 +1,8 @@
+'''
+Dor Certo Cena
+'''
+
+
 from consts import Direction
 import math, random
 
